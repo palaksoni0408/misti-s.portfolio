@@ -51,34 +51,3 @@ Feel free to open issues or pull requests for improvements.
 ## License
 This project is provided as-is.
 
-## Vercel Deployment
-
-Use Vercel to deploy this Next.js app. Below are two common flows: GitHub (recommended) and CLI.
-
-1) Push to GitHub (example commands)
-
-```bash
-git init
-git add .
-git commit -m "Initial portfolio"
-git branch -M main
-git remote add origin git@github.com:<your-username>/<repo-name>.git
-git push -u origin main
-```
-
-2) Import on Vercel (Dashboard)
-- Go to https://vercel.com and sign in.
-- Choose "New Project" → Import Git Repository → select your GitHub repo.
-- Vercel auto-detects Next.js. Confirm settings and deploy.
-
-3) CLI deploy (quick)
-
-```bash
-npm i -g vercel
-vercel login
-vercel --prod
-```
-
-Notes:
-- A `vercel.json` is included with caching headers for static assets.
-- If your API requires secrets, add them in the Vercel Dashboard (Project Settings → Environment Variables).
